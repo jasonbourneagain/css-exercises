@@ -1,0 +1,23 @@
+.classtype {
+    background-color:rgb(255, 204, 238);
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+
+}
+.classtype.large {
+    background-color:rgb(255, 204, 238);
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+    font-size: 24px;
+}
+
+#first {
+    color:rgb(51, 102, 255);
+    font-size: 36px;
+
+}
+
+#second {
+    background-color: rgb(102, 255, 153);
+    font-size: 24px;
+    font-weight: bold;
+
+}
