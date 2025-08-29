@@ -5,10 +5,18 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
   width: 600px;
+}
+
+.header,
+.content,
+.footer {
+  padding: 12px;
 }
 
 button {
@@ -24,3 +32,45 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+ul {
+  list-style: none;
+  padding: 0;   /* optional, removes default left padding */
+  margin: 0;    /* optional, removes default top/bottom margin */
+}
+
+a {
+  text-decoration: none;
+  color: inherit; /* optional, so links use the surrounding text color */
+}
+
+.content {
+  flex: 1;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+
+
+.left-links {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.right-links {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
